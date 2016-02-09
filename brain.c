@@ -123,7 +123,7 @@ int runcode(char *mem_ptr, char *inp_ptr, char *pos){
                     printf("bracket error2!\n");
                     return 1;
                 }
-                /*[があるならスタックの内容を１つ消popする*/
+                /*[があるならスタックの内容を１つpopする*/
                 e_bracket = inp_ptr;
                 inp_ptr = s_bracket[s_index - 1] - 1;
                 break;
